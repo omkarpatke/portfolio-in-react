@@ -72,6 +72,18 @@ nav{
 .inActive{
     color: var(--white);
 }
+.nav-links ul .contact-btn{
+    background-color: #01bf71;
+    color: black;
+    height: 5vh;
+    width: auto;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-left: 10rem;
+}
+.nav-links ul .contact-btn:hover{
+    color: white;
+}
 
 @media screen and (max-width:768px) {
     .mobile-icon{

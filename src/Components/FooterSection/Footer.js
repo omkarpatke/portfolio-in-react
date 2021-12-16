@@ -11,14 +11,13 @@ export default function Footer() {
   return (
     <>
        <div className="footer-container" id='Footer'>
-           <div className="name"></div>
+           <div className="name">Let's Connect</div>
            <div className="social-links">
                <ul>
-                   <li><Link to='/'><FaGithub /></Link></li>
-                   <li><Link to='/'><FaLinkedin /></Link></li>
-                   <li><Link to='/'><FaTwitter /></Link></li>
-                   <li><Link to='/'><AiOutlineMail /></Link></li>
-                   
+                   <li><a href="https://github.com/omkarpatke"><FaGithub /></a></li>
+                   <li><a href="https://www.linkedin.com/in/omkar-patke-a61b221ab/"><FaLinkedin /></a></li>
+                   <li><a href="https://twitter.com/omkar_patke"><FaTwitter /></a></li>
+                   <li><a href="mailto:omkarpatke1101@gmail.com"><AiOutlineMail /></a></li>
                </ul>
            </div>
        </div>
