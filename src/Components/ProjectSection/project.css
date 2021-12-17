@@ -43,6 +43,10 @@
     background-color: #01bf71;
     transition: all 0.6s ease;
 }
+.project-content button a{
+    color: white;
+    text-decoration: none;
+}
 .project-content button:hover{
     background-color: #008d52;
 }
@@ -118,17 +122,17 @@
     }
     .project-content{
         width: auto;
-        padding: 1rem;
     }
     .img{
-        height: 350px;
-        width: 390px;
-        margin-right: 1rem;
+        height: 340px;
+        width: 365px;
         margin-bottom: 1rem;
+        margin-left: 1rem;
     }
     .project-container img{
         height: 280px;
         width: 300px;
-        padding: 1rem;
+        padding: 0;
+        margin-left: 1rem;
     }
 }

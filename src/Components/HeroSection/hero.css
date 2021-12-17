@@ -94,16 +94,16 @@
         top: 145px;
     }
     .homeHeading{
-        font-size: 32px;
+        font-size: 33px;
         margin-left: 1rem;
         text-align: center;
         width: auto;
     }
     .homeParagraph{
-        font-size: 18px;
+        font-size: 19px;
     }
     .homeImg{
-        height: 250px;
-        width: 250px;
+        height: 270px;
+        width: 270px;
     }
 }

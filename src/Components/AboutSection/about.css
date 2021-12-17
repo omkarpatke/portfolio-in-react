@@ -105,21 +105,21 @@
 
 @media screen and (max-width:500px) {
     .text-content{
-        padding: 2rem;
+        padding: 1rem;
     }
     .about-container{
-        padding: 3rem;
+        padding: 2rem;
         flex-direction: column;
         height: auto;
     }
     .about-img img{
-        height: 200px; 
+        height: 210px; 
     }
     .about-img h3{
-        font-size: 1.3rem;  
+        font-size: 1.5rem;  
     }
     .text-content h2{
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     .text-content p{
         font-size: 0.9rem;
