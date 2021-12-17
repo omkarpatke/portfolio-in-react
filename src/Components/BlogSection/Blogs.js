@@ -1,7 +1,7 @@
 import React from 'react';
 import './blog.css';
 import BlogImg from '../Images/Blog.svg'
-import BlogPage from '../../Pages/BlogPage/BlogPage';
+
 
 
 

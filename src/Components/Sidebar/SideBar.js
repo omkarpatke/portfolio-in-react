@@ -2,7 +2,7 @@ import React from 'react';
 import './sidebar.css';
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from 'react-scroll';
-import { animateScroll as scroll } from 'react-scroll';
+
 
 export default function SideBar({isOpen , toggle }) {
     let sideBarStyle = {

@@ -3,7 +3,8 @@ import './project.css';
 import ProjectImg from '../Images/projects.svg';
 
 
-export default function Project() {
+
+export default function Project({page}) {
     return (
         <>
            <div className='project-container' id='Projects'>
