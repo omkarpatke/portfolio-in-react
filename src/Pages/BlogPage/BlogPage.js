@@ -30,7 +30,7 @@ export default function BlogPage() {
     return (
         <div className='blogspage-container'>
             <div className="nav">
-            <Link to='/' >Back To Home Page</Link>
+                <Link to='/' className='pageLink'>Back To Home Page</Link>
                 </div>
 
                 <div className="all-blogs">
@@ -43,7 +43,7 @@ export default function BlogPage() {
                             <div className="blog-name">{blog.name}</div>
                             <div className="blog-des">{blog.description}</div>
                             <div className="button">
-                                <a className='blog-link' href={blog.link}>Read</a>
+                                <a className='blog-link' target='_blank' href={blog.link}>Read</a>
                             </div>
                         </div>
                     )

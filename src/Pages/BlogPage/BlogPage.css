@@ -4,7 +4,7 @@
     height: 10vh;
     background-color: black;
 }
-.nav a{
+.pageLink{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
     background-color: #01bf71;
     transition: all 0.6s ease;
 }
-.nav a:hover{
+.pageLink:hover{
     background-color: #008d52;
 }
 .blogs-container{
@@ -60,7 +60,6 @@
     
 }
 .blog-img img{
-    
     height: 180px;
     width: 305px;
 }
@@ -92,4 +91,53 @@
 .button a{
     color: #fff;
     text-decoration: none;
+}
+@media screen and (max-width:1250px) {
+    .pageLink{
+        width: auto;
+        padding: 1rem;
+    }
+    .blog-img img{
+        height: 180px;
+        width: 248px;
+    }
+    .blog-card{
+        height: auto;
+        width: 30vw;
+    }
+    .all-blogs{
+        height: auto;
+    }
+}
+@media screen and (max-width:850px) {
+    .blog-card{
+        width: 35vw;
+    }
+    .blog-link{
+        width: auto;
+        padding: 1rem;
+    }
+    .button {
+        width: auto;
+        padding: 1rem;
+    }
+    .all-blogs{
+        height: auto;
+    }
+}
+@media screen and (max-width:800px) {
+    .blog-card{
+        width: min-content;
+        padding: 1rem;
+    }
+    .pageLink{
+        margin-left: 1rem;
+    }
+    .all-blogs{
+        height: auto;
+    }
+    .blog-img img {
+        height: 200px;
+        width: 280px;
+    }
 }

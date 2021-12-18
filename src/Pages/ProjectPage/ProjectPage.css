@@ -10,7 +10,7 @@
     height: 10vh;
     background-color: black;
 }
-.nav a{
+.backtohomeLink{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@
     color: white;
     text-decoration: none;
     height: 5vh;
-    width: 12vw;
+    width: 14vw;
     border-radius: 1rem;
     border: none;
     font-size: 1rem;
@@ -26,7 +26,7 @@
     background-color: #01bf71;
     transition: all 0.6s ease;
 }
-.nav a:hover{
+.backtohomeLink:hover{
     background-color: #008d52;
 }
 .nav p{
@@ -101,8 +101,16 @@
     margin-right: 1rem;
     border-radius: 10px;
 }
+.button-live{
+    text-decoration: none;
+    color: white;
+}
 .button-live:hover{
     background-color: #008d52;
+}
+.git-link a{
+    text-decoration: none;
+    color: #01bf71;
 }
 .git-link{
     display: flex;
@@ -120,4 +128,24 @@
 .git-link:hover{
     color: black;
     background-color: rgb(233, 235, 236);
+}
+
+@media screen and (max-width:1250px) {
+    .project-card{
+        height: 55vh;
+        width: min-content;
+    }
+    .button-live{
+        width: auto;
+        padding: 1rem;
+    }
+    .git-link{
+        width: auto;
+        padding: 1rem;
+    }
+    .backtohomeLink{
+        width: auto;
+        padding: 1rem;
+        margin-left: 1rem;
+    }
 }

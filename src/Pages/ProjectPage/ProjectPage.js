@@ -60,7 +60,7 @@ export default function ProjectPage() {
             <div className="projects-container">
                 <div className="nav">
                 
-                <Link to='/' >Back To Home Page</Link>
+                <Link to='/' className='backtohomeLink'>Back To Home Page</Link>
                 </div>
                 <div className="all-projects">
                 {projectData.map((project ,index) => {
@@ -73,10 +73,10 @@ export default function ProjectPage() {
                             <div className="project-des">{project.description}</div>
                             <div className="buttons">
                             <div className="button-live">
-                                <a className='live-link' href={project.liveLink}>Live Link</a>
+                                <a className='live-link' target='_blank' href={project.liveLink}>Live Link</a>
                             </div>
                             <div className="git-link">
-                                <a className='git-link' href={project.githubLink}>Source Code</a>
+                                <a className='gitLink' target='_blank' href={project.githubLink}>Source Code</a>
                             </div>
 
                             </div>
