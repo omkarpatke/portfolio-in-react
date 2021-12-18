@@ -16,7 +16,7 @@ export default function Project({page}) {
                    <h2>I have worked on various <span style={{color:'#01bf71'}}>projects</span></h2>
                    <p>I Believe That The Best Way To Learn Is By Making Good Projects. Hence I Make Sure That I Implement What I Have Learned.</p>
                    <div>You Can See The Projects That I Have Worked On Here.</div>
-                   <button>See Projects</button>
+                   <button><a href="/projects">See Projects</a></button>
                </div>
            </div> 
         </>
