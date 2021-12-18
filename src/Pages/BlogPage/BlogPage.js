@@ -3,6 +3,7 @@ import './BlogPage.css';
 import hookImg from '../ProjectImg/hokksBlog.jpg';
 import keyworImg from '../ProjectImg/letConstBlog.jpg';
 import errorImg from '../ProjectImg/errorBlog.jpg';
+import { Link } from 'react-router-dom';
 
 export default function BlogPage() {
     const blogsData = [
@@ -29,7 +30,7 @@ export default function BlogPage() {
     return (
         <div className='blogspage-container'>
             <div className="nav">
-                <a href="/">Back To Home Page</a>
+            <Link to='/' >Back To Home Page</Link>
                 </div>
 
                 <div className="all-blogs">

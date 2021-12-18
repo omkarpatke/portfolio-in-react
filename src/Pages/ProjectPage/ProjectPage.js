@@ -6,7 +6,7 @@ import movieApp from '../ProjectImg/movieApp.png';
 import todoApp from '../ProjectImg/todoApp.png';
 import spotifyClone from '../ProjectImg/spotifyClone.png';
 import stockApp from '../ProjectImg/stockApp.png';
-
+import { Link } from 'react-router-dom';
 
 
 export default function ProjectPage() {
@@ -59,7 +59,8 @@ export default function ProjectPage() {
         <>
             <div className="projects-container">
                 <div className="nav">
-                <a href="/">Back To Home Page</a>
+                
+                <Link to='/' >Back To Home Page</Link>
                 </div>
                 <div className="all-projects">
                 {projectData.map((project ,index) => {
