@@ -18,7 +18,7 @@ export default function About() {
 
                     <div className="lang-content">
                     <span style={{color: 'orangered'}}><i className="fab fa-html5"></i></span>
-                        <p> <span style={{color:'orangered'}}>HTML :</span> I have good knowladge of HTML especially making Structure of Pages.</p>
+                        <p> <span style={{color:'orangered'}}>HTML :</span> I have good knowledge of HTML especially making Structure of Pages.</p>
                     </div>
                     <hr />
 
