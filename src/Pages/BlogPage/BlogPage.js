@@ -43,7 +43,7 @@ export default function BlogPage() {
                             <div className="blog-name">{blog.name}</div>
                             <div className="blog-des">{blog.description}</div>
                             <div className="button">
-                                <a className='blog-link' target='_blank' href={blog.link}>Read</a>
+                                <a className='blog-link' href={blog.link}>Read</a>
                             </div>
                         </div>
                     )

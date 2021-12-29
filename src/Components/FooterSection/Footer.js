@@ -13,10 +13,10 @@ export default function Footer() {
            <div className="name">Let's Connect</div>
            <div className="social-links">
                <ul>
-                   <li><a target='_blank' href="https://github.com/omkarpatke"><FaGithub /></a></li>
-                   <li><a target='_blank' href="https://www.linkedin.com/in/omkar-patke-a61b221ab/"><FaLinkedin /></a></li>
-                   <li><a target='_blank' href="https://twitter.com/omkar_patke"><FaTwitter /></a></li>
-                   <li><a target='_blank' href="mailto:omkarpatke1101@gmail.com"><AiOutlineMail /></a></li>
+                   <li><a href="https://github.com/omkarpatke"><FaGithub /></a></li>
+                   <li><a href="https://www.linkedin.com/in/omkar-patke-a61b221ab/"><FaLinkedin /></a></li>
+                   <li><a href="https://twitter.com/omkar_patke"><FaTwitter /></a></li>
+                   <li><a href="mailto:omkarpatke1101@gmail.com"><AiOutlineMail /></a></li>
                </ul>
            </div>
        </div>
