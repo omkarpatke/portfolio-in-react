@@ -39,6 +39,12 @@ export default function About() {
                         <p><span style={{color:'deepskyblue'}}>ReactJS :</span> It is very Powerfull JavaScript library, i also have made some app with ReactJS.</p>
                     </div>
                     <hr />
+
+                    <div className="lang-content">
+                    <span style={{color: 'orange'}}><i className="fab fa-node-js"></i></span>
+                        <p><span style={{color:'orange'}}>NodeJs :</span> I have made a CLI app with nodeJS. I'm learning nodeJS from Neog camp and also from YT.</p>
+                    </div>
+                    <hr />
                 </div>
             </div>
         </>

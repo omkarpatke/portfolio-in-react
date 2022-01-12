@@ -1,8 +1,8 @@
 import React from 'react';
 import './hero.css';
 import Video from '../Videos/video.mp4';
-import Img from '../Images/profileImg.png'
-import newImg from '../Images/profile.png'
+// import Img from '../Images/profileImg.png'
+import newImg from '../Images/profile.png';
 
 export default function HomePage() {
     return (
