@@ -4,6 +4,7 @@
     background-color: black;
     height: 100vh;
     align-items: center;
+    
   
 }
 .project-card{
@@ -53,16 +54,16 @@
 }
 .img{
     background-color: white;
-    height: 500px;
-    width: 510px;
+    height: 470px;
+    width: 470px;
     border-radius: 9px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .project-container img{
-    height: 400px;
-    width: 450px;
+    height: 270px;
+    width: 355px;
     background-color: white;
 }
 .projects{
