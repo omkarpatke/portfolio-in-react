@@ -39,11 +39,10 @@
     flex-direction: flex-start;
     align-items: center;
     border-radius: 10px;
-    padding: 30px;
-    height: 50vh;
+    padding: 10px;
+    min-height: 55vh;
     max-height: auto;
     box-shadow: 0 1px 3px gray;
-    /* box-shadow: 8.71px 8.71px 15px rgb(0 0 0/5%),-8.71px -8.71px 15px rgb(0 0 0/3%); */
     transition: all 0.2s ease-in-out;
     max-width: auto;
     margin: 2rem;
@@ -53,6 +52,7 @@
 .project-card:hover{
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
+    box-shadow: 1px 1px 10px gray;
     cursor: pointer;
 }
 .all-projects{
@@ -64,7 +64,6 @@
     
 }
 .project-img img{
-    
     height: 180px;
     width: 305px;
 }

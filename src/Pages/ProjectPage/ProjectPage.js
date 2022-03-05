@@ -6,11 +6,19 @@ import movieApp from '../ProjectImg/movieApp.png';
 import todoApp from '../ProjectImg/todoApp.png';
 import spotifyClone from '../ProjectImg/spotifyClone.png';
 import stockApp from '../ProjectImg/stockApp.png';
+import CLImg from '../ProjectImg/CL.png';
 import { Link } from 'react-router-dom';
 
 
 export default function ProjectPage() {
     const projectData = [
+        {
+            name : 'Component Library',
+            description : 'For Making UI Easy like bootstrap',
+            liveLink : 'https://fasterui.netlify.app/',
+            githubLink : 'https://github.com/omkarpatke/fasterUI-component-library1',
+            img : `${CLImg}`
+        },
         {
             name : 'Photo Gallery App',
             description : 'For Save your Memeries',
