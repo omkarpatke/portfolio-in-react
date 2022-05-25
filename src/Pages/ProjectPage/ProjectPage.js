@@ -10,6 +10,7 @@ import CLImg from '../ProjectImg/CL.png';
 import ecommerce from '../ProjectImg/ecommerce.png';
 import notesApp from '../ProjectImg/notesApp.png';
 import videoLibrary from '../ProjectImg/videoLibrary.png';
+import quizApp from '../ProjectImg/quizApp.png';
 import { Link } from 'react-router-dom';
 
 
@@ -42,6 +43,13 @@ export default function ProjectPage() {
             liveLink : 'https://faster-video-library.netlify.app/',
             githubLink : 'https://github.com/omkarpatke/faster-videos-library',
             img : `${videoLibrary}`
+        },
+        {
+            name : 'Faster Quiz App',
+            description : 'Quiz to Test Your Sport Knowledge.',
+            liveLink : 'https://faster-quizz.netlify.app/',
+            githubLink : 'https://github.com/omkarpatke/faster-quizzz',
+            img : `${quizApp}`
         },
         {
             name : 'Photo Gallery App',
@@ -105,10 +113,10 @@ export default function ProjectPage() {
                             <div className="project-des">{project.description}</div>
                             <div className="buttons">
                             <div className="button-live">
-                                <a className='live-link' href={project.liveLink}>Live Link</a>
+                                <a className='live-link' target='_blank' href={project.liveLink}>Live Link</a>
                             </div>
                             <div className="git-link">
-                                <a className='gitLink' href={project.githubLink}>Source Code</a>
+                                <a className='gitLink' target='_blank' href={project.githubLink}>Source Code</a>
                             </div>
 
                             </div>
