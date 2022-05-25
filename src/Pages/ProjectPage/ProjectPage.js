@@ -9,6 +9,7 @@ import stockApp from '../ProjectImg/stockApp.png';
 import CLImg from '../ProjectImg/CL.png';
 import ecommerce from '../ProjectImg/ecommerce.png';
 import notesApp from '../ProjectImg/notesApp.png';
+import videoLibrary from '../ProjectImg/videoLibrary.png';
 import { Link } from 'react-router-dom';
 
 
@@ -34,6 +35,13 @@ export default function ProjectPage() {
             liveLink : 'https://faster-note.netlify.app/',
             githubLink : 'https://github.com/omkarpatke/faster-notes-app',
             img : `${notesApp}`
+        },
+        {
+            name : 'Faster Video Library',
+            description : 'Video Library to Learn Basics Of HTML, CSS, JavaScript.',
+            liveLink : 'https://faster-video-library.netlify.app/',
+            githubLink : 'https://github.com/omkarpatke/faster-videos-library',
+            img : `${videoLibrary}`
         },
         {
             name : 'Photo Gallery App',
