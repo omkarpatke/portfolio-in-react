@@ -7,6 +7,8 @@ import todoApp from '../ProjectImg/todoApp.png';
 import spotifyClone from '../ProjectImg/spotifyClone.png';
 import stockApp from '../ProjectImg/stockApp.png';
 import CLImg from '../ProjectImg/CL.png';
+import ecommerce from '../ProjectImg/ecommerce.png';
+import notesApp from '../ProjectImg/notesApp.png';
 import { Link } from 'react-router-dom';
 
 
@@ -18,6 +20,20 @@ export default function ProjectPage() {
             liveLink : 'https://fasterui.netlify.app/',
             githubLink : 'https://github.com/omkarpatke/fasterUI-component-library1',
             img : `${CLImg}`
+        },
+        {
+            name : 'Faster Cycle Store',
+            description : 'Ecommerce App for Cycles.',
+            liveLink : 'https://faster-cycles-store.netlify.app/',
+            githubLink : 'https://github.com/omkarpatke/faster-store-ecommerce-app',
+            img : `${ecommerce}`
+        },
+        {
+            name : 'Faster Notes App',
+            description : 'Notes App to create study notes.',
+            liveLink : 'https://faster-note.netlify.app/',
+            githubLink : 'https://github.com/omkarpatke/faster-notes-app',
+            img : `${notesApp}`
         },
         {
             name : 'Photo Gallery App',
