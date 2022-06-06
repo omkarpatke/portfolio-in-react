@@ -113,10 +113,10 @@ export default function ProjectPage() {
                             <div className="project-des">{project.description}</div>
                             <div className="buttons">
                             <div className="button-live">
-                                <a className='live-link' target='_blank' href={project.liveLink}>Live Link</a>
+                                <a className='live-link' href={project.liveLink}>Live Link</a>
                             </div>
                             <div className="git-link">
-                                <a className='gitLink' target='_blank' href={project.githubLink}>Source Code</a>
+                                <a className='gitLink' href={project.githubLink}>Source Code</a>
                             </div>
 
                             </div>
