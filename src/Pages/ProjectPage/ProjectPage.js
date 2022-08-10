@@ -11,6 +11,7 @@ import ecommerce from '../ProjectImg/ecommerce.png';
 import notesApp from '../ProjectImg/notesApp.png';
 import videoLibrary from '../ProjectImg/videoLibrary.png';
 import quizApp from '../ProjectImg/quizApp.png';
+import ChatApp from '../ProjectImg/chat-app.png';
 import { Link } from 'react-router-dom';
 
 
@@ -29,6 +30,13 @@ export default function ProjectPage() {
             liveLink : 'https://faster-cycles-store.netlify.app/',
             githubLink : 'https://github.com/omkarpatke/faster-store-ecommerce-app',
             img : `${ecommerce}`
+        },
+        {
+            name : 'Faster Chat App',
+            description : 'Chat App',
+            liveLink : 'https://faster-chats.herokuapp.com/',
+            githubLink : '',
+            img : `${ChatApp}`
         },
         {
             name : 'Faster Notes App',
