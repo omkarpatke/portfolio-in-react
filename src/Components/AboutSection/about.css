@@ -33,7 +33,7 @@
 }
 .lang-content{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     height: 13vh;
     text-align: initial;

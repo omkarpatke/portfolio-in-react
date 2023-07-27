@@ -1,37 +1,26 @@
 import './App.css';
 import Home from './Pages/Home';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
-
+import { Routes, Route, useLocation } from 'react-router-dom';
 import ProjectPage from './Pages/ProjectPage/ProjectPage';
 import BlogPage from './Pages/BlogPage/BlogPage';
-
-
+import React, { useEffect } from 'react';
 
 function App() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 0)
+
+  }, [pathname]);
+
+  
   return (
-    <>
-    <Router>
-    <Switch>
-      <Route exact  path='/' component={Home}/>
-      <Route exact  path='/projects' component={ProjectPage}/>
-      <Route exact path='/blogs' component={BlogPage}/>
-    </Switch>
-      
-    </Router>
-    {/* <Router>
-      <Navbar />
-    <Switch>
-       <Route path='/' element={<Home />} exact />
-       <Route path='/projects' element={<ProjectPage />} exact />
-       <Route path='/blogs' element={<BlogPage />} exact />
-       </Switch>
-    </Router> */}
-    </>
-  );
+    <Routes>
+      <Route path='/' element={<Home />}/>
+      <Route path='/projects' element={<ProjectPage />}/>
+      <Route path='/blogs' element={<BlogPage />}/>
+    </Routes>
+  )
 }
 
 export default App;
