@@ -24,6 +24,10 @@ nav{
     padding: 0 24px;
     max-width: 1100px;
 }
+
+.border-link{
+    min-width: 90px;
+}
 .brand-name{
     color: var(--primary-color);
     justify-self: flex-start;
@@ -53,7 +57,7 @@ nav{
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
     height: 100%;
     cursor: pointer;
     margin-top: 1.6rem;

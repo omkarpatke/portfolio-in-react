@@ -16,10 +16,10 @@ export default function Navbar({toggle}) {
                   <div className='nav-links'>
                       
                       <ul>
-                          <li><Link to='Home' exact activeClassName='is-active' smooth={true} duration={500} offset={-80}>Home</Link></li>
-                          <li><Link to='About' exact activeClassName='is-active' smooth={true} duration={500} offset={-80} spy={true}>About</Link></li>
-                          <li><Link to='Projects' exact activeClassName='is-active' smooth={true} duration={500} offset={-80} spy={true}>Projects</Link></li>
-                          <li><Link to='Blogs' exact activeClassName='is-active' smooth={true} duration={500} offset={-80} spy={true}>Blogs</Link></li>
+                          <li><Link className='border-link' to='Home' exact activeClassName='is-active' smooth={true} duration={500} offset={-80}>Home</Link></li>
+                          <li><Link className='border-link' to='About' exact activeClassName='is-active' smooth={true} duration={500} offset={-80} spy={true}>About</Link></li>
+                          <li><Link className='border-link' to='Projects' exact activeClassName='is-active' smooth={true} duration={500} offset={-80} spy={true}>Projects</Link></li>
+                          <li><Link className='border-link' to='Blogs' exact activeClassName='is-active' smooth={true} duration={500} offset={-80} spy={true}>Blogs</Link></li>
                           <li className='contact-btn'><Link id='footer' exact activeClassName='is-active' onClick={() => {scroll.scrollToBottom()}}>Contact</Link></li>
                       </ul>
                   </div>
