@@ -11,7 +11,7 @@ import ecommerce from '../ProjectImg/ecommerce.png';
 import notesApp from '../ProjectImg/notesApp.png';
 import videoLibrary from '../ProjectImg/videoLibrary.png';
 import quizApp from '../ProjectImg/quizApp.png';
-import ChatApp from '../ProjectImg/chat-app.png';
+// import ChatApp from '../ProjectImg/chat-app.png';
 import { Link } from 'react-router-dom';
 
 
