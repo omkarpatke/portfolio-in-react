@@ -31,13 +31,13 @@ export default function ProjectPage() {
             githubLink : 'https://github.com/omkarpatke/faster-store-ecommerce-app',
             img : `${ecommerce}`
         },
-        // {
-        //     name : 'Faster Chat App',
-        //     description : 'Chat App',
-        //     liveLink : 'https://faster-chats.herokuapp.com/',
-        //     githubLink : '',
-        //     img : `${ChatApp}`
-        // },
+        {
+            name : 'Faster Chat App',
+            description : 'Chat App',
+            liveLink : 'https://faster-chats.herokuapp.com/',
+            githubLink : '',
+            img : `${ChatApp}`
+        },
         {
             name : 'Faster Notes App',
             description : 'Notes App to create study notes.',
