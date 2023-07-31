@@ -121,10 +121,10 @@ export default function ProjectPage() {
                             <div className="project-des">{project.description}</div>
                             <div className="buttons">
                             <div className="button-live">
-                                <a className='live-link' href={project.liveLink}>Live Link</a>
+                                <a className='live-link' href={project.liveLink} target="_blank" without rel="noreferrer">Live Link</a>
                             </div>
                             <div className="git-link">
-                                <a className='gitLink' href={project.githubLink}>Source Code</a>
+                                <a className='gitLink' href={project.githubLink} target="_blank" without rel="noreferrer">Source Code</a>
                             </div>
 
                             </div>
