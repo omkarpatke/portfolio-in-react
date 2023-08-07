@@ -34,8 +34,8 @@ export default function ProjectPage() {
         {
             name : 'Faster Chat App',
             description : 'Chat App',
-            liveLink : 'https://faster-chats.herokuapp.com/',
-            githubLink : '',
+            liveLink : 'https://faster-chat-app-8ezu.onrender.com/',
+            githubLink : 'https://github.com/omkarpatke/faster-chat-app',
             img : `${ChatApp}`
         },
         {
